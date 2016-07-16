@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Illa\Events;
 
 abstract class Event
 {

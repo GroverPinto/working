@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/',function(){
+  return view('inicio');
 });
+Route::get('admin',function(){
+  return view('administracion.admin');
+});
+Route::resource('usuario','UsuarioController');
